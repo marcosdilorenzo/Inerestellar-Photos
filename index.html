@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+  </head>
+  <body>
+    <video id="background-video" autoplay loop muted>
+        <source src="vid/Interestellar.mp4" type="video/mp4">
+      </video>
+    <div class="background">
+      <section class="gallery">
+        <article class="card">
+          <figure>
+            <img src="img/img1.jpg" alt="Preview" title="Preview" />
+          </figure>
+        </article>
+        <article class="card">
+          <figure>
+            <img src="img/img2.jpg" alt="Preview" title="Preview" />
+          </figure>
+        </article>
+        <article class="card">
+          <figure>
+            <img src="img/img3.jpg" alt="Preview" title="Preview" />
+          </figure>
+        </article>
+        <article class="card">
+          <img src="img/img5.jpg" alt="Preview" title="Preview" />
+        </article>
+        <article class="card">
+          <img src="img/img4.jpg" alt="Preview" title="Preview" />
+        </article>
+      </section>
+      <!-- Botón separado en la esquina superior izquierda -->
+      <button class="music-button">
+        <i class="fa-solid fa-music fa-beat-fade"></i>
+      </button>
+      <audio id="audio-player">
+        <source src="aud/Cancion12.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <footer>
+      <h2>MD Student Full Stack ©</h2>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
